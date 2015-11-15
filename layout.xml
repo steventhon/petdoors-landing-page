@@ -1,17 +1,17 @@
 <reference name="head">
-   <block type="core/text" name="landingPageJQuery">
-      <action method="setText"><text><![CDATA][<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>]]></text></action>
-   </block>
-
-   <block type="core/text" name="bootstrapJs">
-      <action method="setText"><text><![CDATA[<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>]]></text></action>
+   <block type="core/text" name="bootstrapcss">
+      <action method="setText"><text><![CDATA[<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrapstyles">]]></text></action>
    </block>
    
    <block type="core/text" name="fontawesomecss">
       <action method="setText"><text><![CDATA[<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" id="awesomefontstyles">]]></text></action>
    </block>
-   
-   <block type="core/text" name="fontawesomecss">
-      <action method="setText"><text><![CDATA[<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrapstyles">]]></text></action>
+
+   <block type="core/text" name="bootstrapjs">
+      <action method="setText"><text><![CDATA][<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>]]></text></action>
+   </block>
+
+   <block type="core/text" name="jquery">
+      <action method="setText"><text><![CDATA[<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>]]></text></action>
    </block>
 </reference>
