@@ -1,3 +1,7 @@
+<!-- Useful links -->
+<!-- http://www.activo.com/how-to-properly-add-an-external-jscss-file-to-magento/ -->
+<!-- http://duntuk.com/magento-how-add-external-stylesheet-or-javascript -->
+
 <reference name="head">
    <block type="core/text" name="bootstrapcss">
       <action method="setText"><text><![CDATA[<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrapstyles">]]></text></action>
