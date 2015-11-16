@@ -1,21 +1,20 @@
 <!-- Useful links -->
 <!-- http://www.activo.com/how-to-properly-add-an-external-jscss-file-to-magento/ -->
 <!-- http://duntuk.com/magento-how-add-external-stylesheet-or-javascript -->
+<!-- http://store.redstage.com/blog/2012/07/24/how-to-properly-include-custom-css-and-js-files-in-magento/ -->
 
 <reference name="head">
-   <block type="core/text" name="bootstrapcss">
+<block type="core/text" name="bootstrapcss">
       <action method="setText"><text><![CDATA[<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrapstyles">]]></text></action>
-   </block>
-   
-   <block type="core/text" name="fontawesomecss">
+</block>
+<action method="addCss"><stylesheet>css/landing-page.css</stylesheet></action>
+<block type="core/text" name="fontawesomecss">
       <action method="setText"><text><![CDATA[<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" id="awesomefontstyles">]]></text></action>
-   </block>
-
-   <block type="core/text" name="jquery">
+ </block>
+<block type="core/text" name="jquery">
       <action method="setText"><text><![CDATA[<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>]]></text></action>
-   </block>
-
-   <block type="core/text" name="bootstrapjs">
-      <action method="setText"><text><![CDATA][<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>]]></text></action>
-   </block>
+</block>
+<block type="core/text" name="bootstrapjs">
+      <action method="setText"><text><![CDATA[<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>]]></text></action>
+</block>
 </reference>
