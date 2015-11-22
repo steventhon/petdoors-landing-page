@@ -35,7 +35,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5) ), url(https://cloud.githubusercontent.com/assets/15969701/11327004/df8ebd88-912d-11e5-9ff3-7b6aafc1c77f.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, .5) ), url(https://cloud.githubusercontent.com/assets/15969701/11327004/df8ebd88-912d-11e5-9ff3-7b6aafc1c77f.jpg) no-repeat center center;
     background-size: cover;
 }
 
