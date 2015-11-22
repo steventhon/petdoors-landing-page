@@ -117,9 +117,7 @@ h6 {
     padding: 100px 0;
     color: #f8f8f8;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .5) ), url(https://smhttp-ssl-21800.nexcesscdn.net/media/aboutflap1.jpg) no-repeat center center;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
+    background-size: contain;
 }
 
 .banner h2 {
