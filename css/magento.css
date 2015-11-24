@@ -7,3 +7,13 @@ body {
 .intro-divider {
   width: initial;
 }
+
+// Uppercase in Magento
+.intro-message h1 {
+  text-transform: none;
+}
+
+// Left-padding in Magento
+.list-inline {
+  padding-left: 0;
+}
