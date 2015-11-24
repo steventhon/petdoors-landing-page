@@ -1,3 +1,9 @@
+// Padding was 20px in Magento
 body {
   padding: 0;
+}
+
+// Off-center to the left in Magento
+.intro-divider {
+  width: initial;
 }
